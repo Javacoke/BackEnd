@@ -1,0 +1,146 @@
+연습1
+
+public class main {
+    public static void main(String[] args) {
+        int a;
+        char b;
+        a = 10;
+        b= 'A';
+        System.out.println("a ="+ a );
+        System.out.println("b ="+ b);
+    }
+}
+
+자가진단1
+
+package 과제;
+
+public class main {
+    public static void main(String[] args) {
+        int a;
+        a = -100;
+        System.out.println(a);
+
+
+    }
+}
+
+연습문제2
+
+package 과제;
+
+public class main {
+    public static void main(String[] args) {
+        int age1, age2;
+        age1 = 10;
+        age2 = 20;
+        System.out.println(age2 + " " + age1);
+
+
+    }
+}
+
+자가진단2
+
+public class main {
+    public static void main(String[] args) {
+        int age1, age2;
+        age1 = -1;
+        age2 = 100;
+        System.out.println(age1 + "" + System.lineSeparator() + age2);
+
+
+    }
+}
+
+연습문제3
+
+public class main {
+    public static void main(String[] args) {
+        int a = 10, b = 20;
+        System.out.println("10 + 20 = " + (a + b) + '\t');
+
+        a = 30;
+        b = 40;
+        System.out.println("10 + 20 = " + (a + b));
+
+    }
+}
+
+자가진단3
+
+public class main {
+    public static void main(String[] args) {
+        int a = 55, b = 10;
+        System.out.println("55 - 10 = " + (a - b) + '\t');
+
+        a = 2008;
+        b = 1999;
+        System.out.println("55 - 10 = " + (a - b) + '\t');
+
+
+    }
+}
+
+연습문제4
+
+public class main {
+    public static void main(String[] args) {
+        int a = 5, b = 2;
+        double c= 3.1400000;
+        System.out.println("원주 = 5 * 2 * 3.1400000 = " + (a * b)*c );
+        System.out.println("넓이 = 5 * 5 * 3.1400000 = " + (a * a)*c );
+
+
+    }
+}
+
+
+자가진단4
+
+package 과제;
+
+public class main {
+    public static void main(String[] args) {
+        int a = 49;
+        double b = 0.2683;
+
+        System.out.println("49 * 0.268300 = " + (a * b) + "00");
+
+
+    }
+}
+
+연습문제5
+
+package 과제;
+
+public class main {
+    public static void main(String[] args) {
+        double x = 1.2340, y=10.3459;
+        System.out.println("전체 7자리로 맞추고 소수 4자리까지 출력");
+        System.out.println("x =  "+x+0);
+        System.out.println("y =  "+y);
+        System.out.println();
+        System.out.println("소수 2자리까지 출력(반올림) ");
+        System.out.println("x = "+x);
+        System.out.println("y = "+y);
+ }
+}
+
+자가진단5
+
+package 과제;
+
+public class main {
+    public static void main(String[] args) {
+        double yd = 91.44, in = 2.54;
+        System.out.println(" 2.1yd = " + (2.1 * 91.44));
+        System.out.println("10.5in =  " + (10.5 * in));
+
+
+    }
+}
+ 
+현재 부족한 점: 깃과 깃허브 연동이 안됩니다.
+                    실수의 반올림과 소수N번째 자리 버리는게 안됩니다. 
